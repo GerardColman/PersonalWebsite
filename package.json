@@ -1,22 +1,17 @@
 {
   "name": "personalwebsite",
-  "version": "1.0.0",
-  "description": "Portfolio Website of Gerard Colman",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GerardColman/PersonalWebsite.git"
-  },
+  "version": "0.0.0",
   "author": "Gerard Colman",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GerardColman/PersonalWebsite/issues"
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   },
-  "homepage": "https://github.com/GerardColman/PersonalWebsite#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }

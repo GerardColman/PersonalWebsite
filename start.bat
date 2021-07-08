@@ -1,0 +1,1 @@
+SET DEBUG=personalwebsite:* & npm start
